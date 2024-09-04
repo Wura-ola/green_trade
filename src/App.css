@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.sec3 {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  transition-property: opacity, transform;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@media screen and (max-width: 769px) {
+  nav {
+    padding: 2rem;
+  }
+  .mobile_menu {
+    display: none;
+  }
+  .mobile_menu.is-open {
+    display: block;
+  }
+  .mobile_menu ul {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+}
