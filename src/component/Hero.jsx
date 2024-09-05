@@ -15,10 +15,12 @@ function Hero() {
             className="bg-green-600 py-3 px-7  text-white rounded-3xl"
             text="Join the Green Movement"
           />
-          <Button
-            className="bg-green-600 py-3 px-7 rounded-3xl text-white"
-            text="Explore Our Marketplace"
-          />
+          <a href="http://localhost:5173/MarketPlace">
+            <Button
+              className="bg-green-600 py-3 px-7 rounded-3xl text-white"
+              text="Explore Our Marketplace"
+            />
+          </a>
         </div>
         <div className="">
           <input

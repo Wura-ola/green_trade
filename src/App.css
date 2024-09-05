@@ -3,7 +3,7 @@
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .sec3 {
   opacity: 1;
@@ -12,7 +12,8 @@
   transition-duration: 1s;
   transition-property: opacity, transform;
 }
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"); */
 @media screen and (max-width: 769px) {
   nav {
     padding: 2rem;

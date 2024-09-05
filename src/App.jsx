@@ -1,35 +1,22 @@
 import "./App.css";
-import {} from "framer-motion";
-import Header from "./component/Header";
-import Sec1 from "./component/sections/sec1";
-import Sec2 from "./component/sections/sec2";
-import Sec3 from "./component/sections/sec3";
-import Sec4 from "./component/sections/Sec4";
-import Sec5 from "./component/sections/Sec5";
-import Marquee from "react-fast-marquee";
-import Sec6 from "./component/sections/Sec6";
-import Sec7 from "./component/sections/Sec7";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Marketplace from "./pages/Marketplace";
+import SignUp from "./pages/SignUp";
+import Login from "./pages/Login";
 function App() {
   return (
     <div className="h-screen">
-      <Header />
-      <Marquee
-        behavior=""
-        direction=""
-        pauseOnHover="true"
-        onmouseout="this.start();"
-      >
-        <Sec1 />
-      </Marquee>
-
-      <Sec2 />
-      <Sec3 />
-
-      <Sec4 />
-
-      <Sec5 />
-      <Sec6 />
-      <Sec7 />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Marketplace" element={<Marketplace />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/Login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

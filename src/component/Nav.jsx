@@ -14,7 +14,9 @@ function Nav() {
     <nav className=" bg-gray-300 py-4 px-10 flex justify-between  ">
       <div className="lg:flex items-center  lg:justify-between lg:w-full">
         <div>
-          <img src={Logo} alt="Logo" className="w-16 md:w-40" />
+          <a href="http://localhost:5173/">
+            <img src={Logo} alt="Logo" className="w-16 md:w-40" />
+          </a>
         </div>
 
         <li className={`mobile_menu list-none  ${isOpen ? "is-open" : ""}`}>
@@ -47,10 +49,18 @@ function Nav() {
               </a>
             </li>
 
-            <Button
-              className=" md:mt-0 mt-4 rounded border border-green-500 bg-white py-1 px-5"
-              text="Contact Us"
-            />
+            <a href="http://localhost:5173/SignUp">
+              <Button
+                className=" md:mt-0 mt-4 rounded border border-green-500 bg-white py-1 px-5"
+                text="Sign Up"
+              />
+            </a>
+            <a href="http://localhost:5173/Login">
+              <Button
+                className=" md:mt-0 mt-4 rounded border border-white bg-[#005A00] py-1 px-6 text-[#ffffff]"
+                text="Login"
+              />
+            </a>
           </ul>
         </li>
       </div>
