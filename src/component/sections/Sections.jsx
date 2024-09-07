@@ -12,6 +12,7 @@ function Sections() {
   return (
     <div>
       <Marquee
+        // speed={60}
         behavior=""
         direction=""
         pauseOnHover="true"

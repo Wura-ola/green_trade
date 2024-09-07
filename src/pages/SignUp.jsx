@@ -20,35 +20,38 @@ function SignUp() {
             Sign Up with GreenTrade today and start making a difference!
           </h1>
           <form className="flex flex-col  text-start">
-            <label htmlFor="phone">Phone Number</label>
+            <label htmlFor="name">Name</label>
             <input
               type="text"
-              placeholder="Enter phone number"
-              id="phone"
+              placeholder="Enter Your full name here"
+              id="name"
               className="py-3 px-3  w-full border rounded-md border-[#D7D7D7] outline-0 mb-7 mt-3"
             />
             <label htmlFor="phone">Phone Number</label>
             <input
-              type="text"
+              type="number"
               placeholder="Enter phone number"
               id="phone"
               className="py-3 px-3  w-full border rounded-md border-[#D7D7D7] outline-0 mb-7 mt-3"
             />
-            <label htmlFor="phone">Phone Number</label>
+            <label htmlFor="email">Email Address</label>
             <input
-              type="text"
-              placeholder="Enter phone number"
-              id="phone"
+              type="email"
+              placeholder="Enter your email address"
+              id="email"
               className="py-3 px-3  w-full border rounded-md border-[#D7D7D7] outline-0 mb-7 mt-3"
             />
-            <label htmlFor="phone">Phone Number</label>
+            <label htmlFor="password">Password</label>
             <input
-              type="text"
-              placeholder="Enter phone number"
-              id="phone"
+              type="password"
+              placeholder="Enter your password"
+              id="password"
               className="py-3 px-3  w-full border rounded-md border-[#D7D7D7] outline-0 mb-7 mt-3"
             />
-            <Button text="Sign" className="bg-[#005A00] py-3 rounded-md" />
+            <Button
+              text="Sign"
+              className="bg-[#005A00] py-3 rounded-md text-white"
+            />
           </form>
           <div className="font-bold mt-6">--OR--</div>
           <div className="font-bold mt-4">Sign Up with</div>
