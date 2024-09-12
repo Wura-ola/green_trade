@@ -7,10 +7,12 @@ function Sec6() {
     <div className="p-10 ">
       <div className="flex flex-col text-start">
         <h2 className="font-bold text-2xl ml-10">What our Users say</h2>
-        <p className=" text-lg">
-          Hear from our community on how GreenTrade has transformed
+        <div className="text-lg">
+          <p className="">
+            Hear from our community on how GreenTrade has transformed
+          </p>
           <p>their shopping experience.</p>
-        </p>
+        </div>
       </div>
       <div className="flex items-center mt-9">
         <div className="w-[30%]">
