@@ -1,21 +1,21 @@
 import React from "react";
-// import Header from "../component/Header";
-import Header from "../component/Header";
-import Sections from "../component/sections/Sections";
+import Nav from "../component/Nav";
 import Footer from "../component/Footer";
+import Hero3 from "../component/Tradingplace/Hero3";
+import Sec1 from "../component/Tradingplace/Sec1";
 import { motion } from "framer-motion";
-function Home() {
+
+export default function TradingPlace() {
   return (
     <motion.div
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
       exist={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-      <Header />
-      <Sections />
+      <Nav />
+      <Hero3 />
+      <Sec1 />
       <Footer />
     </motion.div>
   );
 }
-
-export default Home;

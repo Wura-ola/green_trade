@@ -4,20 +4,19 @@ import Button from "../Button";
 
 import hero_img from "../../assets/basket_img.png";
 
-function Hero2() {
+function Hero3() {
   return (
     <div className="flex items-center justify-between">
       <div className="p-24 flex flex-col items-start">
         <h2 className="font-bold text-[24px] flex items-start leading-9">
-          Connect You with the
+          Give a new life
         </h2>
         <p className="font-bold text-[24px] leading-9">
-          Future of <span className="text-[#008300]">Recycling</span>
+          To your old <span className="text-[#008300]">School materials!</span>
         </p>
-        <p className="text-start py-3 w-96">
-          Connect with recyclers, buy, sell and trade recyclables Effortlessly.
-          Join us in reducing waste and building a greener future--one trade at
-          a time
+        <p className="text-start w-96 py-3">
+          Reduce waste, trade, and share textbooks, bags, and other educational
+          resources at affordable prices.
         </p>
 
         <form className=" ">
@@ -39,4 +38,4 @@ function Hero2() {
   );
 }
 
-export default Hero2;
+export default Hero3;

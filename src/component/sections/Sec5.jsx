@@ -4,9 +4,9 @@ import arrow_right from "../../assets/arrow-right.png";
 import arrow_left from "../../assets/arrow-left.png";
 import Marquee from "react-fast-marquee";
 
-function Sec5(props) {
+function Sec5() {
   return (
-    <div className="p-10">
+    <div className="p-20">
       <div>
         <div className="flex flex-col text-start mb-12 ">
           {" "}
@@ -24,9 +24,9 @@ function Sec5(props) {
               >
                 1
               </button>
-              <div className="border border-[#b8b8b8] rounded p-7 text-start">
-                <h3 className="text-[#636363]">Sign Up</h3>
-                <p className="text-[#636363]">
+              <div className="border border-[#b8b8b8]  p-7 text-start rounded-lg">
+                <h3 className="text-[#636363] font-semibold">Sign Up</h3>
+                <p className="text-[#636363] pt-2">
                   Create your free accout in seconds
                 </p>
               </div>
@@ -39,12 +39,12 @@ function Sec5(props) {
                 2
               </button>
 
-              <div className="flex gap-4">
+              <div className="flex gap-4 ">
                 <img src={arrow_right} alt="" />
-                <div className="border border-[#b8b8b8]  p-7 text-start">
-                  <h3 className="text-[#636363]">Sign Up</h3>
-                  <p className="text-[#636363]">
-                    Create your free accout in seconds
+                <div className="border border-[#b8b8b8]  p-7 text-start rounded-md">
+                  <h3 className="text-[#636363] font-semibold">List items</h3>
+                  <p className="text-[#636363] pt-2">
+                    Post recyclables or educational materials you want to trade.
                   </p>
                 </div>
               </div>
@@ -58,10 +58,10 @@ function Sec5(props) {
               </button>
               <div className="flex  flex-row-reverse gap-4">
                 <img src={arrow_left} alt="" />
-                <div className="border border-[#b8b8b8]  *: p-7 text-start">
-                  <h3 className="text-[#636363]">Sign Up</h3>
+                <div className="border border-[#b8b8b8] p-7 text-start rounded-md">
+                  <h3 className="text-[#636363] font-semibold">Connect</h3>
                   <p className="text-[#636363]">
-                    Create your free account in seconds
+                    Find and connect with buyers or traders.
                   </p>
                 </div>
               </div>
@@ -76,9 +76,11 @@ function Sec5(props) {
               <div className="flex ml-32 gap-4">
                 <img src={arrow_right} alt="arrow-right" />
                 <div className="border border-[#b8b8b8]  p-7 text-start">
-                  <h3 className="text-[#636363]">Sign Up</h3>
+                  <h3 className="text-[#636363] font-semibold">
+                    Trade and Save
+                  </h3>
                   <p className="text-[#636363]">
-                    Create your free accout in seconds
+                    Complete transactions and contribute to sustainability.
                   </p>
                 </div>
               </div>

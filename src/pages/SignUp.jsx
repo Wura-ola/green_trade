@@ -4,9 +4,16 @@ import Button from "../component/Button";
 import face from "../assets/face.png";
 import google from "../assets/google.png";
 import app from "../assets/app.png";
+import { motion } from "framer-motion";
+
 function SignUp() {
   return (
-    <div className="bg-[#C8FFC8] py-12 ">
+    <motion.div
+      className="bg-[#C8FFC8] py-12 "
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exist={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+    >
       <div className="flex justify-center  m-auto max-w-[600px] bg-[#ffffff]  rounded-md p-9">
         <div className="">
           <a href="http://localhost:5173/">
@@ -67,7 +74,7 @@ function SignUp() {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

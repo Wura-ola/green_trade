@@ -7,6 +7,8 @@ import Sec4 from "./Sec4";
 import Sec5 from "./Sec5";
 import Sec6 from "./Sec6";
 import Sec7 from "./Sec7";
+import Sec8 from "./Sec8";
+import Trading from "./Trading";
 
 function Sections() {
   return (
@@ -20,12 +22,17 @@ function Sections() {
       >
         <Sec1 />
       </Marquee>
-      <Sec2 />
-      <Sec3 />
-      <Sec4 />
-      <Sec5 />
-      <Sec6 />
       <Sec7 />
+      <Sec5 />
+      <Trading />
+      <Sec3 />
+      <Sec6 />
+
+      <Sec2 />
+
+      {/* <Sec4 /> */}
+
+      <Sec8 />
     </div>
   );
 }
