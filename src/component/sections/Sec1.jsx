@@ -1,9 +1,9 @@
 import React from "react";
 import bag from "../../assets/bag.png";
-import can from "../../assets/can.png";
-import nylon from "../../assets/nylon.png";
-import carton from "../../assets/carton.png";
-import shampoo from "../../assets/shampoo.png";
+import can from "../../assets/Can.png";
+import nylon from "../../assets/Nylon.png";
+import carton from "../../assets/Carton.png";
+import shampoo from "../../assets/Shampoo.png";
 import essay from "../../assets/Essay.png";
 import Items from "../items";
 
