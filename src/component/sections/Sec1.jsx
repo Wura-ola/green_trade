@@ -7,8 +7,6 @@ import shampoo from "../../assets/shampoo.png";
 import essay from "../../assets/Essay.png";
 import Items from "../items";
 
-// import Marquee from "react-fast-marquee";
-
 function Sec1() {
   return (
     <div className="grid grid-cols-6  mt-10 gap-4">

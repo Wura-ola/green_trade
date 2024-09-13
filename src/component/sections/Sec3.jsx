@@ -4,21 +4,10 @@ import { motion } from "framer-motion";
 
 function Sec3() {
   return (
-    <div
-      // data-aos="zoom-in"
-      // data-aos-anchor-placement="top-center"
-      // data-aos-easing="ease-out"
-      // data-aos-duration="1000"
-      className=" sec3 bg-[#005700] flex items-center justify-between px-10 py-14 gap-7"
-    >
-      {/* <div className="flex items-center justify-between px-10 py-12 gap-7"> */}
+    <div className=" sec3 bg-[#005700] flex items-center justify-between px-10 py-14 gap-7">
       <div className="font-bold text-white">Who we Serve</div>
       <div className="flex gap-4">
-        <motion.div
-          // animate={{ x: 100, scale: 1 }}
-          // initial={{ scale: 0 }}
-          className=""
-        >
+        <motion.div className="">
           <div className="bg-[#DCFCE7] py-8 px-5 text-start rounded-xl">
             <h3 className="font-bold mb-3">
               Environmental conscious consumers
@@ -35,9 +24,7 @@ function Sec3() {
           </div>
         </motion.div>
 
-        <motion.div
-        // animate={{ x: 100, scale: 0 }} initial={{ scale: 1 }}
-        >
+        <motion.div>
           <div className="bg-[#fdf1dc] py-5 px-5 text-start rounded-xl">
             <h3 className="font-bold mb-3">Business and vendors</h3>
             <p className="w-72">
@@ -51,9 +38,7 @@ function Sec3() {
             <img src={arrow} alt="" />
           </div>
         </motion.div>
-        <motion.div
-        // animate={{ x: 100, scale: 1 }} initial={{ scale: 0 }}
-        >
+        <motion.div>
           <div className="bg-[#FFEEF7] py-5 px-5 text-start rounded-xl">
             <h3 className="font-bold mb-3">
               Students and Educational Institutions
@@ -69,7 +54,6 @@ function Sec3() {
             <img src={arrow} alt="" />
           </div>
         </motion.div>
-        {/* </div> */}
       </div>
       <div></div>
     </div>

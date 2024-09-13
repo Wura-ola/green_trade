@@ -2,7 +2,6 @@ import React from "react";
 import woman from "../../assets/woman3.png";
 import arrow_right from "../../assets/arrow-right.png";
 import arrow_left from "../../assets/arrow-left.png";
-import Marquee from "react-fast-marquee";
 
 function Sec5() {
   return (

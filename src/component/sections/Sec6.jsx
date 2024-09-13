@@ -1,6 +1,5 @@
 import React from "react";
 import Comment from "../../assets/Comments.png";
-// import { comment } from "postcss";
 
 function Sec6() {
   return (

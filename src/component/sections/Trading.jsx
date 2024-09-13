@@ -8,7 +8,6 @@ import Marquee from "react-fast-marquee";
 function Trading() {
   return (
     <div>
-      {/* <Marquee> */}
       <div className="px-20 pb-10">
         <h1 className="text-center py-8 font-bold text-xl">
           What others are trading
