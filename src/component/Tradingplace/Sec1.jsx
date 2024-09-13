@@ -1,5 +1,5 @@
 import React from "react";
-import chem from "../../assets/chem.jfif";
+
 import book from "../../assets/book.png";
 import greenbag from "../../assets/greenbag.png";
 import shoe from "../../assets/shoe.png";
