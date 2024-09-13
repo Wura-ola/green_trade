@@ -1,5 +1,5 @@
 import React from "react";
-import Sec1 from "./sec1";
+import Sec1 from "./Sec1";
 import Sec2 from "./sec2";
 import Sec3 from "./Sec3";
 import Marquee from "react-fast-marquee";
