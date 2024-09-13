@@ -5,7 +5,7 @@ import nylon from "../../assets/Nylon.png";
 import carton from "../../assets/Carton.png";
 import shampoo from "../../assets/Shampoo.png";
 import essay from "../../assets/Essay.png";
-import Items from "../items";
+import Items from "../Items";
 
 function Sec1() {
   return (
