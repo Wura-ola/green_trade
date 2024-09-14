@@ -11,11 +11,11 @@ function Sec1() {
   return (
     <div className="grid grid-cols-6  mt-10 gap-4">
       <Items text="Shopping bag" src={bag} className=" bg-[#f0fff0]" />
-      <Items text="Shopping bag" src={can} className=" bg-[#f0fff0]" />
-      <Items text="Shopping bag" src={nylon} className=" bg-[#f0fff0]" />
-      <Items text="Shopping bag" src={carton} className=" bg-[#f0fff0]" />
-      <Items text="Shopping bag" src={shampoo} className=" bg-[#f0fff0]" />
-      <Items text="Shopping bag" src={essay} className=" bg-[#f0fff0]" />
+      <Items text="Can" src={can} className=" bg-[#f0fff0]" />
+      <Items text="Nylon" src={nylon} className=" bg-[#f0fff0]" />
+      <Items text="Carton" src={carton} className=" bg-[#f0fff0]" />
+      <Items text="Pet Bottles " src={shampoo} className=" bg-[#f0fff0]" />
+      <Items text="Papers" src={essay} className=" bg-[#f0fff0]" />
     </div>
   );
 }

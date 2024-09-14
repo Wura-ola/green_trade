@@ -70,7 +70,9 @@ function SignUp() {
           <hr className="bg-[#A9A9A9] text-lg my-3" />
           <p className="text-[#A9A9A9]">
             Already have an account?{" "}
-            <span className="font-bold text-[#000000]">Login</span>
+            <a href="http://localhost:5173/Login">
+              <span className="font-bold text-[#000000]">Login</span>
+            </a>
           </p>
         </div>
       </div>

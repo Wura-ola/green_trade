@@ -55,8 +55,10 @@ function Login() {
           </div>
           <hr className="bg-[#A9A9A9] text-lg my-3" />
           <p className="text-[#A9A9A9]">
-            Already have an account?{" "}
-            <span className="font-bold text-[#000000]">Login</span>
+            Don't Have An Account{" "}
+            <a href="http://localhost:5173/SignUp">
+              <span className="font-bold text-[#000000]">Sign Up</span>
+            </a>
           </p>
         </div>
       </div>
